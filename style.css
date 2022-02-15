@@ -26,3 +26,13 @@
     width: 90px;
     height: 90px;
 }
+
+.bulb {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+
+.on {
+    background-color: yellow;
+}
