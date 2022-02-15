@@ -104,6 +104,9 @@ form.addEventListener("submit", (event) => {
         const newCoin = document.createElement("div");
         newCoin.classList.add("coin", whichCoin);
         newCoin.textContent = whichCoin;
+        newCoin.addEventListener("click", ()=> {
+            newCoin.remove();
+        });
         bank.append(newCoin);
     }
 });
